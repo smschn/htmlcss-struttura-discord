@@ -57,3 +57,30 @@
     border: 2px dashed #fff;
 }
 /* End of header */
+
+/* Start of main sections */
+
+.section-1 {
+    margin: 10px;
+}
+.s1-content {
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    display: flex;
+}
+
+.s1-c-left {
+    background-color: #1e90ff;
+    height: 100%;
+    width: calc(100% / 3 * 2);
+    border: 2px dashed black;
+}
+
+.s1-c-right {
+    background-color: #ffc0cb;
+    height: 100%;
+    width: calc(100% / 3);
+    border: 2px dashed black;
+}
+/* End of main sections */
