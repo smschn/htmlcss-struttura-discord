@@ -6,20 +6,38 @@
 
 .header-up {
     background-color: #add8e6;
-    height: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
+
 .header-menu {
     margin-top: 50px;
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border: solid 1px black;
+    align-items: center;
 }
 
 .header-logo, .header-links, .header-login {
-    border: 1px dotted black;
-    background-color: red;
+    border: 2px dashed black;
+    background-color: #daa520;
+    padding: 10px;
+}
+
+.header-logo {
+    width: calc(100% / 6);
+}
+
+.header-links {
+    width: calc(100% / 6 * 4);
+    text-align: center;
+}
+
+.header-login {
+    width: calc(100% / 6);
+    text-align: right;
 }
 
 .header-down {
@@ -35,5 +53,5 @@
     width: 60%;
     margin: auto;
     height: 300px;
-    border: 1px dotted black;
+    border: 2px dashed #fff;
 }
