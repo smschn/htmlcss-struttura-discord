@@ -136,7 +136,7 @@
 
 /* Start of footer section */
 /* Start of footer-up section */
-.container-footer-up {
+.container-footer-up { /* >>> potrei togliere flex, centrarlo con width 80% e margin auto, dare margin maggiore sotto rispetto a sopra */
     height: 600px;
     background-color: #23272a;
     display: flex;
@@ -167,5 +167,29 @@
 /* End of footer-up section */
 
 /* Start of footer-down section */
+.container-footer-down {
+    height: 200px;
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-down {
+    height: 70%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0px;
+    background-color: #7fffd4;
+    border: 2px dashed red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f-logo, .f-button {
+    background-color: #ffb6c1;
+    padding: 10px;
+    border: 2px dashed #000;
+}
 /* End of footer-down section */
 /* End of footer section */
