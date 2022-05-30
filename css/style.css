@@ -59,7 +59,7 @@
 /* End of header */
 
 /* Start of main sections */
-
+/* Start of section-1 */
 .section-1 {
     margin: 10px;
 }
@@ -83,4 +83,5 @@
     width: calc(100% / 3);
     border: 2px dashed black;
 }
+/* End of section-1 */
 /* End of main sections */
