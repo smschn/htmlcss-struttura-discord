@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Start of header */
 .header-up {
     background-color: #add8e6;
     height: 80px;
@@ -55,3 +56,4 @@
     height: 300px;
     border: 2px dashed #fff;
 }
+/* End of header */
