@@ -4,3 +4,36 @@
     box-sizing: border-box;
 }
 
+.header-up {
+    background-color: #add8e6;
+    height: 100px;
+}
+.header-menu {
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px black;
+}
+
+.header-logo, .header-links, .header-login {
+    border: 1px dotted black;
+    background-color: red;
+}
+
+.header-down {
+    background-color: #00008b;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    background-color: #ee82ee;
+    width: 60%;
+    margin: auto;
+    height: 300px;
+    border: 1px dotted black;
+}
