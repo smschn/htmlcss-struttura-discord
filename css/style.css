@@ -13,7 +13,6 @@
 }
 
 .header-menu {
-    margin-top: 50px;
     width: 80%;
     margin: auto;
     display: flex;
@@ -49,7 +48,7 @@
     align-items: center;
 }
 
-.header-content {
+.header-down-content {
     background-color: #ee82ee;
     width: 60%;
     margin: auto;
@@ -61,13 +60,16 @@
 /* Start of main sections */
 /* Start of section-1 */
 .section-1 {
-    margin: 10px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .s1-content {
     width: 80%;
     margin: auto;
-    height: 400px;
+    height: 90%;
     display: flex;
 }
 
