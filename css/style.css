@@ -117,4 +117,22 @@
 }
 /* End of section-2 */
 
+/* Start of section-3 */
+.section-3 {
+    background-color: #d3d3d3;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3-content {
+    height: 90%;
+    width: 80%;
+    background-color: #228b22;
+    border: 2px dashed #000;
+}
+
+/* End of section-3 */
+
 /* End of main sections */
